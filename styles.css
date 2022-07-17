@@ -1,0 +1,88 @@
+body{background-color: #F5FAFA;
+    min-width: 290px;
+    line-height: 1.5;
+    font-family: Georgia, Arial, sans-serif;
+    margin: 8px;}
+    
+    h1{padding: 0px 30px;
+    font-size: 38px;}
+    
+    header{color: black;
+    margin: 10px;
+    }
+    
+    #main-doc header{margin: 0px;}
+    
+    #navbar{position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: grey;
+    }
+    
+    
+    nav{display: block;}
+    
+    main{display: block;}
+    
+    #main-doc{position: absolute;
+    margin-left: 310px;
+    margin-bottom: 110px;
+    padding: 20px;}
+    
+    #navbar ul{height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;}
+    
+    ul{display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;}
+    
+    #navbar li{border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    }
+    
+    #navbar a{display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;}
+    
+    .css-language{display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #0a0a23;
+    color: white;
+    padding: 15px;
+    border: 10px;
+    border-radius: 5px;}
+    
+    code{background-color: grey;
+    color: black;
+    font-weight: bold;}
+    
+    @media(max-width: 810px) {
+        #navbar {
+          position: relative;
+          width: 100%;
+          border-style: none;
+          height: auto;
+        }
+        .nav-link {
+          max-height: 100%;
+          width: 100%;
+        }
